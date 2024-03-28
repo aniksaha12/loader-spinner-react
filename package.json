@@ -1,0 +1,25 @@
+{
+  "name": "loader-spinner-react",
+  "version": "1.0.2",
+  "description": "A custom loader component for React",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx babel src -d dist"
+  },
+  "keywords": [
+    "react",
+    "loader"
+  ],
+  "author": "Anik Saha",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1"
+  }
+}
